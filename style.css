@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #5C5470;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+.Add, .book-card {
+    width: 250px;
+    height: 350px;
+    padding: 20px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+    background-color: transparent;
+    border: 1px solid #0d0720;
+    color: #0d0720;
+    border-radius: 5px;
+}
+.Add {
+    align-items: center;
+}
+.Add:hover {
+    background-color: #c8c2da71;
+    cursor: pointer;
+}
+span {
+    padding: 5px;
+    position: relative;
+    top: 10px;
+}
+.hidden {
+    display: none;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 350px;
+    padding: 20px;
+    margin: 15px;
+    font-size: 25px;
+    background-color: transparent;
+    border: 1px solid #0d0720;
+    color: #0d0720;
+    border-radius: 5px;
+}
+.form input {
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid #0d0720;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 4px;
+    outline: none;
+    background-color: #B9B4C7;
+    color: black;
+}
+.read {
+    font-size: 16px;
+    border: 1px solid #0d0720;
+    border-radius: 5px;
+    background-color: #B9B4C7;
+    width: 100%;
+    height: 30px;
+    padding: 4px;
+    margin: 10px 0;
+}
+#read {
+    position: relative;
+    bottom: 27px;
+    right: 40px;
+    border: 1px solid #0d0720;
+}
+button {
+    border: 1px solid #0d0720;
+    border-radius: 5px;
+    background-color: #B9B4C7;
+    font-size: 16px;
+    padding: 4px;
+    margin: 5px 0;
+}
+.bookContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.book-card {
+    justify-content: space-between;
+}
+.book-card button {
+    font-size: 14px;
+    padding: 5px;
+    margin: 5px 0;
+}
